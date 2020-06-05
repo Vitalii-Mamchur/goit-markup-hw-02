@@ -115,11 +115,22 @@ body {
 /* Чем мы занимаемся */
 .section .section-title{
     color: var(--title-text-color);
+    font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
 }
 
 .work .link{
     text-decoration: none;
+}
+
+.link .title{
+    color: var(--btn-txt-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    text-transform: uppercase;
+    background: var(--primary-text-color);
 }
 
 /* Команда */
@@ -153,6 +164,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
     
 .auth-nav .links:hover,
