@@ -138,9 +138,11 @@ body {
 }
 
 /* Футер */
+/* Адресс */
 .auth-nav .city{
     color: var(--btn-txt-color);
     background: var(--primary-text-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -148,6 +150,7 @@ body {
 .auth-nav .links{
     color: rgba(255, 255, 255, 0.6);
     background: var(--primary-text-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
